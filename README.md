@@ -34,6 +34,11 @@ Comprehensive test suite for a Python text processing library with pytest, featu
 git clone https://github.com/ivan-silvanovich-is/VK-internship-tester-automatization-2025.git
 cd VK-internship-tester-automatization-2025
 
+# Set up virtual environment
+pip install virtualenv
+python -m virtualenv .venv
+.venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 ```
